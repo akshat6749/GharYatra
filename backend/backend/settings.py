@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-!i3fr%b#3c2awd2y&_tmf0ps-9kehm=maxjus$nyih=qq(y^jp
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0','gharyatra.onrender.com']
 
 
 # Application definition
