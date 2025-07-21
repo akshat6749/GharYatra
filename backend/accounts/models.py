@@ -1,4 +1,4 @@
-from django.contrib.auth.models import AbstractUser
+from django.contrib.auth.models import AbstractUser #it is built in base class for creating custom user models,we are importing it and overiding some fields to make our user
 from django.db import models
 
 class User(AbstractUser):

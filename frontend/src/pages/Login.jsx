@@ -1,5 +1,4 @@
 "use client"
-
 import { useState } from "react"
 import { Link, useNavigate, useLocation } from "react-router-dom"
 import { useAuth } from "../contexts/AuthContext"
@@ -44,7 +43,7 @@ const Login = () => {
   return (
     <div className="max-w-md mx-auto">
       <div className="card">
-        <h2 className="text-2xl font-bold text-center mb-6">Sign In</h2>
+        <h2 className="text-2xl font-bold text-center mb-6">Log In</h2>
 
         {message && (
           <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">{message}</div>
@@ -81,6 +80,7 @@ const Login = () => {
               className="input-field"
               required
             />
+            
           </div>
 
           <button type="submit" disabled={loading} className="w-full btn-primary">
@@ -100,7 +100,7 @@ const Login = () => {
         {/* Demo Credentials */}
         <div className="mt-6 p-4 bg-gray-100 rounded-lg">
           <p className="text-sm text-gray-600 mb-2">Demo Credentials:</p>
-          <p className="text-xs text-gray-500">Email: john@example.com</p>
+          <p className="text-xs text-gray-500">Email: akshat@example.com</p>
           <p className="text-xs text-gray-500">Password: password123</p>
         </div>
       </div>
